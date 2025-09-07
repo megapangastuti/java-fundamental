@@ -29,6 +29,12 @@ public class Variable {
         // b. Instance Variable (Non-Static Fields)
         // c. Class Variable (Static Fields)
         // d. Final Variable (Konstanta)
+        final double PI = 3.14159;
+        System.out.println("Nilai PI: " + PI);
+
+        // Format Specifier
+        final int panjang = 30;
+        System.out.printf("Panjang ruangannya adalah %d cm", panjang);
         // e. Var (Inferensi Tipe) - Java 10+
     }
 }
